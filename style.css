@@ -22,15 +22,18 @@
 
 html,
 .root {
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+h1, h2, h3{
+  line-height: 1.1;
+
 }
 h1,
 .h1 {
   font-size: 45px;
   margin-top: 26px;
   margin-bottom: 52px;
-  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
 }
 h2,
@@ -38,15 +41,12 @@ h2,
   font-size: 42px;
   margin-top: 100px;
   margin-bottom: 80px;
-  font-family: "Montserrat Alternates", sans-serif;
   color: var(--violetFonce);
 }
 h3,
 .h3 {
   font-size: 30px;
-  line-height: 52px;
   margin-bottom: 0px;
-  font-family: "Montserrat Alternates", sans-serif;
 }
 
 html {
@@ -70,9 +70,27 @@ html {
 }
 
 .buttonNavBar:hover{
- color: var();
+ color: var(--white);
+ background-color: #2a0533;
 }
 
+.button{
+  border: solid 1px var(--violetFonce);
+  background-color: var(--violetFonce);
+  color: var(--white);
+  padding: 16px 8px;
+  border-radius: 30px 30px 30px;
+}
+
+.button:hover{
+ color: var(--blackTitre);
+ background-color: var(--violetClair);
+ border: solid 1px var(--violetClair);
+}
+
+.backgroundViolet{
+  background-color: var(--violetClair);
+}
 /* ---------------------------------------NAVBAR HASNA---------------------------------------------------------------- */
 nav {
   display: flex;
@@ -113,6 +131,9 @@ nav {
 #sectionHero {
   padding-top: 150px;
 }
+#divTextHero{
+  
+}
 
 /* -------------------------------------------Section Problematique----------------------------------------------- */
 #sectionProblematique {
@@ -128,10 +149,12 @@ nav {
   height: 350px;
   display: flex;
   flex-direction: column;
-  gap: 41px;
+  gap: 25px;
   align-items: center;
+  h3 {
+    line-height: 1.1;
+  }
   img {
-    width: 103px;
     height: 103px;
   }
 }
@@ -141,6 +164,10 @@ nav {
   justify-self: center;
   gap: 25px;
 }
+#marg{
+margin-top: 30px;
+}
+
 
 
 
@@ -172,11 +199,17 @@ nav {
   #sectionSoutien {
   display: flex;
   align-items: center;
+  img{
+  width: 206px8;
+  height:170px;
+  gap: 30px;
 }
-.cardSoutient {
-  justify-content: center;
-}
+  }
+
 */-------------------------------------sectionFooter Cheick---------------------------
 footer{
   display: flex;
+}
+#lien{
+  align-self: center;
 }
