@@ -61,6 +61,18 @@ html {
   width: 100%;
 }
 
+.buttonNavBar {
+  border: solid 1px var(--violetClair);
+  background-color: var(--violetClair);
+  color: var(--blackTitre);
+  padding: 16px 8px;
+  border-radius: 30px 30px 30px;
+}
+
+.buttonNavBar:hover{
+ color: var();
+}
+
 /* ---------------------------------------NAVBAR HASNA---------------------------------------------------------------- */
 nav {
   display: flex;
@@ -80,31 +92,54 @@ nav {
     border-radius: 8px 8px 8px 8px;
   }
 
-  a:hover {
-    color: var(--violetClair);
-    /* Couleur au survol */
-  }
-
-  a {
-    color: var(--white);
-  }
-
   ul {
-    width: 30%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     /* Espace entre les liens */
-
     a {
+      color: var(--white);
       font-weight: 400;
+    }
+    a:hover {
+      color: var(--violetClair);
+      /* Couleur au survol */
     }
   }
 }
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
 
-#sectionHero{
-  padding-top: 15px;
+#sectionHero {
+  padding-top: 150px;
+}
+
+/* -------------------------------------------Section Problematique----------------------------------------------- */
+#sectionProblematique {
+  h2 {
+    text-align: center;
+  }
+}
+.cardProb {
+  text-align: center;
+  box-shadow: 0px 0px 11px;
+  padding: 20px;
+  width: 380px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: center;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+.divWidthP {
+  display: flex;
+  max-width: 1200px;
+  justify-self: center;
+  gap: 25px;
 }
 
 
@@ -118,12 +153,30 @@ nav {
 
 
 
-*/-------------------------------------------section
-  Soution
-  Cheick----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/------------------------------------sectionSoution Cheick----------------------------------------------
   #sectionSoutien {
   display: flex;
-  h2 {
-    align-self: center;
-  }
+  align-items: center;
+}
+.cardSoutient {
+  justify-content: center;
+}
+*/-------------------------------------sectionFooter Cheick---------------------------
+footer{
+  display: flex;
 }
