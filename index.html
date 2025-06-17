@@ -29,30 +29,26 @@
 <!-- ---------------------------------NAVBAR HASNA----------------------------------- -->
   
   <header>
-    Accueil
-  <a href="/doc.html">Documentation</a>
+    <nav>
+        <a href="index.html"><img id="logo" src="/assets/assetsProjetAidant/logoAidant3.png" alt="photo logo"></a>
 
-    <div>
-      <img src="assets/assetsProjetAidant/logoAidant2.png" alt="">
-    </div>
-    <div>
-      <ul>
-        <li>Accueil</li>
-        <li>Notre solution</li>
-        <li>Témoignages</li>
-        <li>Partenaires</li>
-        <li>Contact</li>
-      </ul>
-    </div>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Notre Solution</a></li> 
+            <li><a href="#">Témoignages</a></li>
+            <li><a href="/doc.html"></a>Documentation</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+    </nav>
 
   </header>
 
 
         <!-- ---------------------------------------------SECTION HERO HASNA------------------------ -->
-    <section id="sectionHero">
+    <section id="sectionHero" class="divWith">
       <div>
         <h1>Parce qu’aider ne devrait jamais rimer avec s’épuiser.</h1>
-        h2>Une application pensée pour les aidants familiaux, pour mieux communiquer, s’organiser et souffler.</p>
+        <p>Une application pensée pour les aidants familiaux, pour mieux communiquer, s’organiser et souffler.</p>
       </div>
       <div>
         <img src="" alt="">
@@ -62,24 +58,25 @@
 <!-- ------------------------------------------SECTION PROBLEMATIQUE BILAL--------------------------------------- -->
 <section id="sectionProblematique">
 
-      <h3>Les aidants sont essentiels... mais souvent laissés seuls.</h3>
+    <div class="divWidth">
+      <h2>Les aidants sont essentiels... mais souvent laissés seuls.</h2>
 
       <!-- isolment -->
       <div class="card">
-        <img src="">
+        <img src="assets/assetsProjetAidant/iconChargeMentale.svg" loading="lazy">
         <p>Les aidants doivent souvent gérer seuls des situations complexes, sans accompagnement clair.</p>
       </div>
       <!-- manque de communication -->
       <div class="card">
-        <img src="">
+        <img src="assets/assetsProjetAidant/iconCommunication.svg" loading="lazy">
         <p>Difficile de coordonner efficacement entre professionnels, proches et aidants.</p>
       </div>
       <!-- charge mental -->
       <div class="card">
-        <img src="">
+        <img src="assets/assetsProjetAidant/iconIsolement.svg" loading="lazy">
         <p>Ordonnances, soins, rendez-vous… tout repose sur l’aidant, au détriment de sa santé.</p>
       </div>
-
+</div>
     </section>
 
 
@@ -154,15 +151,15 @@
 +
 <!-- -------------------------------------SECCTION SOUTIEN CHEIKH---------------------------------------------------- -->
     <section id="sectionSoutien">
-      <div>
+      <div class="divWith">
         <h2>Ils nous soutiennent</h2>
-        <div class="card soutient">
+        <div class="cardSoutient">
         <img src="assets/assetsProjetAidant/Maintenir-logo-noir-et-organge-vif-300x247.png.webp" alt="">
         </div>
-        <div class="card soutient">
+        <div class="cardSoutient">
         <img src="assets/assetsProjetAidant/logo-adenes.png" alt="">
         </div>
-        <div class="card soutient">
+        <div class="cardSoutient">
         <img src="assets/assetsProjetAidant/OVPAR_baseline_déclinaison-HD.jpg" alt="">
       </div>
     </div>
@@ -187,5 +184,7 @@
     </ul>
   </div>
   <button>Nous contacter</button>
+  <p>entraide@contact.fr</p>
+  <p>04 78 70 24 34 </p>
 </footer>
 </html>
