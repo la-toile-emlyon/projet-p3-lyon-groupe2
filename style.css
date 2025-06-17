@@ -24,18 +24,21 @@ html,
 .root {
   font-size: 18px;
   line-height: 1.5;
+  color: var(--blackParagraph);
 }
 h1,
 h2,
 h3 {
   line-height: 1.1;
+   font-family: "Montserrat Alternates", sans-serif;
+   color: var(--blackTitre);
 }
 h1,
 .h1 {
   font-size: 45px;
   margin-top: 26px;
   margin-bottom: 52px;
-  font-weight: 600;
+  font-weight: 700;
 }
 h2,
 .h2 {
@@ -63,16 +66,17 @@ html {
 }
 
 .buttonNavBar {
-  border: solid 1px var(--violetClair);
-  background-color: var(--violetClair);
-  color: var(--blackTitre);
+  border: solid 2px var(--violetClair);
+  color: var(--violetClair);
+ 
   padding: 16px 8px;
   border-radius: 30px 30px 30px;
 }
 
 .buttonNavBar:hover {
-  color: var(--white);
-  background-color: #2a0533;
+  color: var(--blackTitre);
+  background-color: var(--violetClair);
+  transition: color 0.3s ease;
 }
 
 .button {
@@ -86,6 +90,7 @@ html {
 .button:hover {
   color: var(--white);
   background-color: #640b72;
+  transition: color 0.3s ease;
 }
 
 .backgroundViolet {
@@ -127,20 +132,33 @@ nav {
 }
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
+#sectionHero{
+img{
+  width: 50%;
+}
 
 #divHero {
   display: flex;
   padding-top: 107px;
-  align-items: center;
+  margin-left: 264px;
+   align-items: center;
+  /* section total = 1728 - 1200= 528/2= 264  */
+  img{
+    align-items: flex-end;
+  width: 755px;;
+  }
 }
 #divTextHero {
   justify-content: center;
+    margin-right: 185px;
   p{
-    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 35px;
   }
  
 }
-
+}
 /* -------------------------------------------Section Problematique----------------------------------------------- */
 #sectionProblematique {
   h2 {
@@ -186,9 +204,9 @@ nav {
   display: flex;
   align-items: center;
   img {
-    justify-self: center;
+    justify-content: center;
     height: 170px;
-    gap: 30px;
+    gap: 50px;
   }
 }
 
