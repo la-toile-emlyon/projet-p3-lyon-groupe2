@@ -1,3 +1,31 @@
+:root {
+  --grey: #292c31;
+  --black: #21242a;
+  --white: #f0edea;
+  --beigeDore: #c2a77d;
+  --textGrey: #777b7e;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+html,
+.root {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+
+
+
+
+
 html {
   height: 100%;
   width: 100%;
