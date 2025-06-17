@@ -1,9 +1,11 @@
 :root {
-  --grey: #292c31;
-  --black: #21242a;
-  --white: #f0edea;
-  --beigeDore: #c2a77d;
-  --textGrey: #777b7e;
+  --violetFonce: #962DAF;
+  --violetClair: #E5D8F4;
+  --blackParagraph: #4D4D4D;
+  --blackTitre: #3D3240;
+  --white: #FBFEFF;
+  --vertClair: #BFDFDD;
+  --orange: #F9DDD4;
 }
 
 * {
@@ -13,6 +15,9 @@
   text-decoration: none;
   overscroll-behavior: none;
   scroll-behavior: smooth;
+
+  font-family: "Work Sans", sans-serif;
+   /* font-family: "Montserrat Alternates", sans-serif; */
 }
 
 html,
@@ -20,7 +25,26 @@ html,
   font-size: 20px;
   line-height: 23px;
 }
-
+h1, .h1 {
+  font-size: 45px;
+  margin-top: 26px;
+  margin-bottom: 52px;
+   font-family: "Montserrat Alternates", sans-serif;
+   font-weight: 600;
+}
+h2, .h2 {
+  font-size: 42px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+   font-family: "Montserrat Alternates", sans-serif;
+   color: var(--violetFonce);
+}
+h3, .h3 {
+  font-size: 30px;
+  line-height: 52px;
+  margin-bottom: 0px;
+   font-family: "Montserrat Alternates", sans-serif;
+}
 
 
 
