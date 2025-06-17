@@ -25,9 +25,10 @@ html,
   font-size: 18px;
   line-height: 1.5;
 }
-h1, h2, h3{
+h1,
+h2,
+h3 {
   line-height: 1.1;
-
 }
 h1,
 .h1 {
@@ -69,12 +70,12 @@ html {
   border-radius: 30px 30px 30px;
 }
 
-.buttonNavBar:hover{
- color: var(--white);
- background-color: #2a0533;
+.buttonNavBar:hover {
+  color: var(--white);
+  background-color: #2a0533;
 }
 
-.button{
+.button {
   border: solid 1px var(--violetFonce);
   background-color: var(--violetFonce);
   color: var(--white);
@@ -82,13 +83,12 @@ html {
   border-radius: 30px 30px 30px;
 }
 
-.button:hover{
- color: var(--blackTitre);
- background-color: var(--violetClair);
- border: solid 1px var(--violetClair);
+.button:hover {
+  color: var(--white);
+  background-color: #640b72;
 }
 
-.backgroundViolet{
+.backgroundViolet {
   background-color: var(--violetClair);
 }
 /* ---------------------------------------NAVBAR HASNA---------------------------------------------------------------- */
@@ -128,11 +128,17 @@ nav {
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
 
-#sectionHero {
-  padding-top: 150px;
+#divHero {
+  display: flex;
+  padding-top: 107px;
+  align-items: center;
 }
-#divTextHero{
-  
+#divTextHero {
+  justify-content: center;
+  p{
+    padding-bottom: 20px;
+  }
+ 
 }
 
 /* -------------------------------------------Section Problematique----------------------------------------------- */
@@ -164,52 +170,33 @@ nav {
   justify-self: center;
   gap: 25px;
 }
-#marg{
-margin-top: 30px;
+#marg {
+  margin-top: 30px;
 }
 
+/* */------------------------------------sectionSoution
+  Cheick---------------------------------------------- */
+#sectionSoutien {
+  h2{
+    text-align: center;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/------------------------------------sectionSoution Cheick----------------------------------------------
-  #sectionSoutien {
+  .divWithS {
   display: flex;
   align-items: center;
-  img{
-  width: 206px8;
-  height:170px;
-  gap: 30px;
-}
+  img {
+    justify-self: center;
+    height: 170px;
+    gap: 30px;
   }
+}
 
-*/-------------------------------------sectionFooter Cheick---------------------------
-footer{
+*/-------------------------------------sectionFooter
+  Cheick---------------------------
+  footer {
   display: flex;
 }
-#lien{
+#lien {
   align-self: center;
 }
