@@ -30,12 +30,12 @@ h1,
 h2,
 h3 {
   line-height: 1.1;
-   font-family: "Montserrat Alternates", sans-serif;
-   color: var(--blackTitre);
+  font-family: "Montserrat Alternates", sans-serif;
+  color: var(--blackTitre);
 }
 h1,
 .h1 {
-  font-size: 45px;
+  font-size: 56px;
   margin-top: 26px;
   margin-bottom: 52px;
   font-weight: 700;
@@ -46,6 +46,7 @@ h2,
   margin-top: 100px;
   margin-bottom: 80px;
   color: var(--violetFonce);
+  text-align: center;
 }
 h3,
 .h3 {
@@ -68,7 +69,7 @@ html {
 .buttonNavBar {
   border: solid 2px var(--violetClair);
   color: var(--violetClair);
- 
+
   padding: 16px 8px;
   border-radius: 30px 30px 30px;
 }
@@ -132,32 +133,38 @@ nav {
 }
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
-#sectionHero{
-img{
-  width: 50%;
-}
-
-#divHero {
-  display: flex;
+#sectionHero {
   padding-top: 107px;
-  margin-left: 264px;
-   align-items: center;
-  /* section total = 1728 - 1200= 528/2= 264  */
-  img{
-    align-items: flex-end;
-  width: 755px;;
+  /* img{
+  width: 50%;
+} */
+
+  #divHero {
+    width: 100%;
+    display: flex;
+    /* margin-left: 264px; */
+    align-items: center;
+    /* section total = 1728 - 1200= 528/2= 264  */
+    img {
+      /* width: 50%;
+      align-items: flex-end; */
+      /* width: 755px; */
+    }
   }
-}
-#divTextHero {
-  justify-content: center;
-    margin-right: 185px;
-  p{
-    font-size: 30px;
-    font-weight: 500;
-    padding-bottom: 35px;
+
+  #divTextHero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* margin-right: 185px; */
+    margin-left: 40px;
+    p {
+      font-size: 40px;
+      font-weight: 500;
+      padding-bottom: 35px;
+    }
   }
- 
-}
 }
 /* -------------------------------------------Section Problematique----------------------------------------------- */
 #sectionProblematique {
@@ -192,28 +199,25 @@ img{
   margin-top: 30px;
 }
 
-/* */------------------------------------sectionSoution
-  Cheick---------------------------------------------- */
-#sectionSoutien {
-  h2{
-    text-align: center;
-  }
-}
+/*---------------------------------sectionSoutionCheick--------------------------------------------------*/
 
-  .divWithS {
+.divWith {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   img {
-    justify-content: center;
     height: 170px;
     gap: 50px;
   }
 }
 
-*/-------------------------------------sectionFooter
-  Cheick---------------------------
+/*-------------------------------------sectionFooterCheick------------------------------------------------*/
   footer {
   display: flex;
+  justify-content: space-between;
+  boutton{
+
+  }
 }
 #lien {
   align-self: center;
