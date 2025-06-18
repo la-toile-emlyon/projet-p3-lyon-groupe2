@@ -37,16 +37,16 @@
       <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo"></a>
 
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="#sectionMokupVisit">Notre Solution</a></li>
+        <li><a href="#sectionHero">Accueil</a></li>
+        <li><a href="#sectionMokups">Notre Solution</a></li>
         <li><a href="#sectionAvis">Les Avis</a></li>
-        <li><a href="#sectionRdv">Prendre RDV</a></li>
-        <li><a href="#footer">Contact</a></li>
-        <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li>
+        <li><a href="#sectionConversion">Nous Contacter</a></li>
+        <li><a class="buttonNavBar" href="doc.html">Documentation</a></li>
       </ul>
     </nav>
 
   </header>
+  <main>
 
 
   <!-- ---------------------------------------------SECTION HERO HASNA------------------------ -->
@@ -94,7 +94,7 @@
   <!-- -----------------------------------------SECTION MOKUP VISIT Hasna Sabri------------------------------------------ -->
     <h2>Une application qui vous aide à mieux aider.</h2>
     
-  <section class="backgroundViolet" class="sectionMokup">
+  <section   class="backgroundViolet" class="sectionMokup" id="sectionMokups">
     <div class="divMokup">
       <img src="assets/assetsProjetAidant/mokupVisite.png" alt="mokup téléphone avec l'interface visite ">
       <div class="TextMokup">
@@ -124,28 +124,30 @@
   </section>
       <!-- Interface préparation de la visite -->
 <!-- _____________________________________________________________ -->
-
-
+<section class="backgroundViolet" class="sectionMokup">
   <div class="divMokup">
     <img src="assets/assetsProjetAidant/mokupMessagerie.png" alt="">
+<div class="TextMokup" >
     <h3>Messagerie simplifiée</h3>
     <p>Communiquez facvilement avec les professionnels de santé, les proches et les autres aidants
       via une interface claire et sécurisée</p>
+      </div>
   </div>
+  </section>
   <!-- Interface messagerie-->
  
   <!-- ---------------------------------------------SECTION AVIS KHAIS---------------------------------------------- -->
   
-<h2>Ils ont testé: voici ce qu'ils en pensent</h2>
+<h2 id="sectionAvis">Ils ont testé: voici ce qu'ils en pensent</h2>
 
-  <section id="slider" >
+  <section id="slider">
   
     <div id="precedent" class="fleche">&#10094;</div>
 
    
     <div class="containerAvis" class="d" id="track">
         <article class="cardAvis">
-        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Solenne" class="photo" loading="lazy" />
+        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Solenne" class="photo" loading="lazy" style="margin-left: 10px"/>
         <div>
           <h3>Solenne</h3>
           <h4>Psychologue</h4>
@@ -155,7 +157,7 @@
 
       <!-- Slide 2 -->
       <article class="cardAvis">
-        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Valérie" class="photo" loading="lazy" />
+        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Valérie" class="photo" loading="lazy"/>
         <div>
           <h3>Valérie</h3>
           <h4>Infirmière</h4>
@@ -208,7 +210,7 @@
 
   <!-- ---------------------------------------SECTION CONVERSION HASNA--------------------------------------------------------- -->
   <section id="sectionConversion">
-<div class="divWidth">
+<div class="divWidth" id="divConversion" >
 <div id="textConversion">
   <h2>Une application pour les Aidants faites par des Aidants !</h2>
 <p>Simplifiez votre quotidien avec une application qui vous soulage. N'ayez plus peur du lendemain ! Découvrez votre aide faite pour vous et réduisez votre charge mentale.</p>
@@ -216,12 +218,14 @@
 
 <div id="buttonConversion">
   <h3>Téléchargez l'application</h3>
+  <div id="buttonFlex">
  <a href=""><img id="logo" src="assets/assetsProjetAidant/logoAppStore.png" alt="logo iPhone"></a>
  <a href=""><img id="logo" src="assets/assetsProjetAidant/logoGooglePlayStore.png" alt="logo Android"></a>
+ </div>
 </div>
 
 </div>
-<img src="" alt="">
+<img src="assets/assetsProjetAidant/iphoneLogo.png" alt="">
 </div>
 
 
@@ -232,9 +236,8 @@
 
 
   <!-- -----------------------------------------FIN MAIN--------------------------------------------------------------------------------------------------------------- -->
-  </main>
+ </main>
 
-  
   <!-- ------------------------------------------------------------------FIN BODY-------------------------------------------------------------------------------------- -->
 </body>
 <!-- ------------------------------------------------------------------------------------------FOOTER----------------------------------------------------------- -->
