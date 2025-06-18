@@ -15,6 +15,7 @@
   text-decoration: none;
   overscroll-behavior: none;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 
   font-family: "Work Sans", sans-serif;
   /* font-family: "Montserrat Alternates", sans-serif; */
@@ -39,6 +40,7 @@ h1,
   margin-top: 26px;
   margin-bottom: 52px;
   font-weight: 700;
+  line-height: 1.5;
 }
 h2,
 .h2 {
@@ -103,7 +105,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   padding: 15px;
-  background-color: #962daf;
+  background-color: var(--violetFonce);
   align-items: center;
   /* Alignement vertical */
   cursor: pointer;
@@ -135,24 +137,21 @@ nav {
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
 #sectionHero {
   padding-top: 107px;
-  /* img{
+   img{
   width: 50%;
-} */
+} 
 
   #divHero {
     width: 100%;
     display: flex;
+     align-items: center;
     /* margin-left: 264px; */
-    align-items: center;
+   
     /* section total = 1728 - 1200= 528/2= 264  */
-    img {
-      /* width: 50%;
-      align-items: flex-end; */
-      /* width: 755px; */
-    }
   }
 
   #divTextHero {
+   width: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -160,7 +159,7 @@ nav {
     /* margin-right: 185px; */
     margin-left: 40px;
     p {
-      font-size: 40px;
+      font-size: 35px;
       font-weight: 500;
       padding-bottom: 35px;
     }
@@ -213,12 +212,33 @@ nav {
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
   footer {
+    padding: 15px;
+   background-color: var(--violetFonce);
   display: flex;
   justify-content: space-between;
-  boutton{
-
+ img {
+    width: 90px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
   }
-}
-#lien {
-  align-self: center;
-}
+ul {
+  display: flex;
+  flex-direction: column;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    /* Espace entre les liens */
+    a {
+      color: var(--white);
+      font-weight: 400;
+    }
+    a:hover {
+      color: var(--violetClair);
+      /* Couleur au survol */
+    }
+  }
+  p{
+    color: white;
+  }
+  }
+
