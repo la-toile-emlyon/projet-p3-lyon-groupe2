@@ -239,6 +239,7 @@ ul {
   }
   p{
     color: white;
+    flex-direction: column;
   }
   }
 
