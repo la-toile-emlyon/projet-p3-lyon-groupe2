@@ -198,18 +198,18 @@ nav {
 
 /* ------------------------------------------SECTION MOKUPS---------------------------------------------- */
 
-#sectionMokupVisit {
+.sectionMokup {
   display: flex;
   width: 100%;
 }
-#divMokupVisit {
+.divMokup {
   display: flex;
   img {
     width: 50%;
   }
   margin-inline: 120px;
 }
-#TextMokupVisit {
+.TextMokup{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,3 +277,4 @@ footer {
     gap: 20px;
   }
 }
+
