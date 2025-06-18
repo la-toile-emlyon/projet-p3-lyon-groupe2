@@ -61,7 +61,7 @@ html {
   width: 100%;
 }
 
-.divWith {
+.divWidth {
   display: flex;
   max-width: 1200px;
   margin: auto;
@@ -74,6 +74,7 @@ html {
 
   padding: 16px 8px;
   border-radius: 30px 30px 30px;
+  text-align: center;
 }
 
 .buttonNavBar:hover {
@@ -195,6 +196,71 @@ nav {
 #marg {
   margin-top: 30px;
 }
+/* ------------------------------------------SECTION AVIS------------------------------------------------- */
+
+#slider { 
+      position: relative; 
+      width: auto; 
+      margin: auto; 
+      overflow: hidden;
+      padding: auto; 
+    }
+
+.containerAvis { 
+      display: flex; 
+      transition: transform 0.4s ease; 
+      gap: 1rem;
+      margin: auto;
+    }
+
+.cardAvis { 
+      padding:20px;
+      flex: 0 0 40%; 
+      background: #fff; 
+      border-radius: 12px; 
+      margin: 1rem; 
+      display: flex; 
+      gap: 1rem;
+      width: 384px;
+      height: 201px;
+      align-items: center;
+      box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+    }
+
+.photo { 
+      width: 88px; 
+      height: 115px; 
+      border-radius: 20%; 
+      align-items: center;
+      justify-content: space-around;
+      object-fit: cover;              
+      flex-shrink: 0; 
+      border: #F9DDD4;
+      
+    }
+
+.fleche { 
+      position: absolute; 
+      top: 50%; 
+      transform: translateY(-50%); 
+      background: #fff; 
+      border-radius: 50%; 
+      z-index: 10;
+      width: 30px; 
+      height: 30px;
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+      cursor: pointer; 
+    }
+
+#precedent { 
+      left: 10px; 
+    }
+
+#suivant { 
+      right: 10px; 
+    }
 
 /* ------------------------------------------SECTION MOKUPS---------------------------------------------- */
 
@@ -219,9 +285,9 @@ nav {
 width: 400px;
 } */
 
-/*---------------------------------sectionSoutionCheick--------------------------------------------------*/
+/*---------------------------------sectionSoutienCheick--------------------------------------------------*/
 
-.divWith {
+.divWidth {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -229,6 +295,25 @@ width: 400px;
     height: 170px;
     gap: 50px;
   }
+}
+
+
+/* ---------------------------------------------SECTION CONVERSION HASNA-------------------------------- */
+
+#sectionConversion{
+display: flex;
+.divWidth{
+ flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
 }
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
