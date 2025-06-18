@@ -138,18 +138,18 @@ nav {
 #sectionHero {
   padding-top: 107px;
   /* padding top pour faire apparaitre la section qui est sous la navBar fixed */
-   img{
-  width: 50%;
-} 
+  img {
+    width: 50%;
+  }
   #divHero {
     width: 100%;
     display: flex;
-     align-items: center;
+    align-items: center;
     /* margin-left: 264px; */
     /* section total = 1728 - 1200= 528/2= 264  */
   }
   #divTextHero {
-   width: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -174,7 +174,7 @@ nav {
   box-shadow: 0px 0px 11px;
   padding: 20px;
   width: 380px;
-  height: 350px;
+
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -198,18 +198,18 @@ nav {
 
 /* ------------------------------------------SECTION MOKUPS---------------------------------------------- */
 
-#sectionMokupVisit{
-display: flex;
-width: 100%;
-}
-#divMokupVisit{
+#sectionMokupVisit {
   display: flex;
-  img{
+  width: 100%;
+}
+#divMokupVisit {
+  display: flex;
+  img {
     width: 50%;
   }
- margin-inline: 120px;
+  margin-inline: 120px;
 }
-#TextMokupVisit{
+#TextMokupVisit {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,10 +218,6 @@ width: 100%;
 /* #boxSize{
 width: 400px;
 } */
-
-
-
-
 
 /*---------------------------------sectionSoutionCheick--------------------------------------------------*/
 
@@ -236,19 +232,19 @@ width: 400px;
 }
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
-  footer {
-    padding: 15px;
-   background-color: var(--violetFonce);
+footer {
+  padding: 15px;
+  background-color: var(--violetFonce);
   display: flex;
   justify-content: space-between;
- img {
+  img {
     width: 90px;
     height: 80px;
     border-radius: 8px 8px 8px 8px;
   }
-ul {
-  display: flex;
-  flex-direction: column;
+  ul {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -263,20 +259,19 @@ ul {
     }
   }
 }
-.footer{
+.footer {
   display: flex;
-   
 }
-#divF3{
+#divF3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  p{
-  color: white;
- }
+  p {
+    color: white;
+  }
 }
-#divF2{
-  ul{
+#divF2 {
+  ul {
     flex-direction: column;
     width: 100%;
     gap: 20px;
