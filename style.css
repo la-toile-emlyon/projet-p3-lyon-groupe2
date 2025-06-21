@@ -429,8 +429,8 @@ text-align: center;
  }
 }
 
-#divFonctionnement{
-ol{
- 
+/* #divFonctionnement{
+li{
+ text-decoration: solid;
 }
-}
+} */
