@@ -61,6 +61,10 @@ html {
   width: 100%;
 }
 
+img{
+  object-fit: cover;
+}
+
 .divWidth {
   display: flex;
   max-width: 1200px;
@@ -287,14 +291,15 @@ width: 400px;
 } */
 
 /*---------------------------------sectionSoutienCheick--------------------------------------------------*/
-#sectionSoutien{
+/* #sectionSoutien{ */
   /* height:750px;
   display: flex;
  flex-direction: column;
  align-items: center; */
-}
+/* } */
 .divWidth {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   img {
@@ -384,15 +389,48 @@ footer {
     gap: 20px;
   }
 }
+
+
+/* -------------------------------------------DOC.HTML-------------------------------------------- */
 .persona {
   img {
-    width: 30%;
-    height: 50%;
+    width: 80%;
+   
   }
 }
 .flow {
    img {
-    width: 30%;
-    height: 50%;
+    width: 80%;
+   
   }
+}
+
+.sectionFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 80px;
+  justify-self: anchor-center;
+}
+
+.sectionCenter{
+ text-align: center;
+}
+
+#services{
+text-align: center;
+ h3{
+  margin-bottom: 15px;
+ }
+ p{
+  margin-bottom: 60px;
+ }
+}
+
+#divFonctionnement{
+ol{
+ 
+}
 }
