@@ -1,186 +1,218 @@
-
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Projet - Page d'accueil</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!----------------------------------------section NavBar Cheick------------------------------------------>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Projet - Page d'accueil</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-</head>
-<!----------------------------------------section NavBar Cheick------------------------------------------>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img
+            id="logo"
+            src="assets/assetsProjetAidant/logoAidant3.png"
+            alt="photo logo"
+        /></a>
 
-<body>
-<header>
-  <nav>
-    <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo"/></a>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#sectionMokupVisit">Notre Solution</a></li>
+          <li><a href="#sectionAvis">Les Avis</a></li>
+          <li><a href="#sectionRdv">Prendre RDV</a></li>
+          <li><a href="#footer">Contact</a></li>
+          <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="#sectionMokupVisit">Notre Solution</a></li>
-      <li><a href="#sectionAvis">Les Avis</a></li>
-      <li><a href="#sectionRdv">Prendre RDV</a></li>
-      <li><a href="#footer">Contact</a></li>
-      <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li>
-    </ul>
-  </nav>
-</header>
+    <main>
+      <section id="sectionHero" class="backgroundViolet">
+        <div id="divHero">
+          <div id="divTextHero">
+            <h1>Documentation</h1>
+            <p>
+              Une documentation bien pensée pour accompagner chaque étape de
+              l'application entrAide.
+            </p>
+            <a
+              class="button"
+              href="https://geode-chair-cac.notion.site/P3-Documentation-projet-Sant-Bien-tre-207ad27946348022995dfe47325758d2"
+              >Aller sur Notion</a
+            >
+          </div>
 
+          <img
+            src="assets/assetsProjetAidant/imgDocHeros.jpg"
+            alt="photo d'une aidante avec une proche aidée."
+          />
+        </div>
+      </section>
 
-  <main>
+      <section>
+        <div class="sectionFlex">
+          <h2>Contexte</h2>
+          <p>
+            En France, plus de 11 millions d’aidants familiaux accompagnent un
+            proche malade ou en perte d’autonomie. Beaucoup se sentent isolés,
+            débordés et mal informés. Notre projet est née pour répondre à cette
+            réalité, en proposant un outil simple et humain pour les soutenir au
+            quotidien.
+          </p>
+        </div>
+      </section>
 
-    <section id="sectionHero" class="backgroundViolet">
-    <div id="divHero">
-      <div id="divTextHero">
-        <h1>Documentation</h1>
-        <p>Une documentation bien pensée pour accompagner chaque étape de l'application entrAide.</p>
-        <a class="button"
-          href="https://geode-chair-cac.notion.site/P3-Documentation-projet-Sant-Bien-tre-207ad27946348022995dfe47325758d2">Aller sur Notion</a>
-      </div>
+      <section class="backgroundViolet">
+        <div class="sectionFlex">
+          <h2>Notre mission</h2>
+          <p>
+            Notre objectif est de faciliter la vie des aidants grâce à une
+            application mobile qui centralise les soins, fluidifie la
+            communication avec les professionnels et la famille, et réduit la
+            charge mentale liée à l’organisation, des rendez-vous, traitements
+            et échanges médicaux.
+          </p>
+        </div>
+      </section>
 
-      <img src="assets/assetsProjetAidant/imgDocHeros.jpg" alt="photo d'une aidante avec une proche aidée.">
+      <section class="personas">
+        <div class="sectionFlex" class="cardpersona">
+          <h2>Personas</h2>
+          <img src="assets/assetsProjetAidant/Persona-1.png" loading="lazy" />
+          <p>
+            Notre utilisateur principal est Claire, 28 ans, secrétaire médicale
+            et aidante pour son père. Elle a peu de temps, de nombreuses
+            responsabilités, et cherche un outil intuitif pour s’organiser,
+            poser ses questions et retrouver toutes les infos importantes au
+            même endroit.
+          </p>
+        </div>
+      </section>
+
+      <section class="backgroundViolet">
+        <div id="divFonctionnement" class="sectionFlex">
+          <h2>Comment ça fonctionne ?</h2>
+
+          <h3>
+            L’application propose un espace personnel organisé autour de
+            plusieurs outils :
+          </h3>
+
+          <ol>
+            <li>
+              Une messagerie pour joindre les intervenants de la structure de
+              santé.
+            </li>
+            <li>Un cahier de liaison</li>
+            <li>Un système de préparation de visite médicale</li>
+            <li>Un espace de stockage de documents</li>
+            <li>Des onglets séparés pour les pros et la famille</li>
+            <li>Un pilulier numérique</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sectionFlex" class="flow">
+        <h2>Notre flow utilisateur</h2>
+        <img
+          src="assets/assetsProjetAidant/Flow-utilisateur.png"
+          loading="lazy"
+        />
+        <p>
+          L’utilisateur commence par ajouter un proche aidé, puis organise les
+          rendez-vous médicaux, envoie des messages aux professionnels et
+          consulte les rappels de traitement. Toutes les informations sont
+          centralisées et partagées avec les autres aidants ou la famille.
+        </p>
+      </section>
+
+      <section id="services" class="backgroundViolet">
+        <div class="sectionFlex">
+          <h2>Nos services</h2>
+
+          <h3>Messagerie instantanée</h3>
+          <p>Poue échanger facilement avec les bons contacts</p>
+
+          <h3>Préparation de la visite</h3>
+          <p>Ne plus rien oublier avant un rendez vous médical</p>
+
+          <h3>Espace partagé de coordination</h3>
+          <p>Suivi des soins, documents et traitements</p>
+
+          <h3>Cahier de liaison</h3>
+          <p>Suivi structuré pour tous les intervenants</p>
+
+          <h3>Fiche de contact de santé</h3>
+          <p>Infos clés sur les pro de la santé(RPPS ,horaires,)</p>
+        </div>
+      </section>
+      <section>
+        <h2>Et ensuite ?</h2>
+      </section>
+      <section>
+        <div class="sectionFlex">
+          <h2>Notre Prototype Haute fidélité</h2>
+          <p>
+            Nous avons réalisé un prototype fonctionnel en haute fidélité sur
+            Figma. L’interface est claire, apaisante et facile à utiliser, même
+            pour les utilisateurs peu à l’aise avec le numérique. L’essentiel
+            est accessible dès l’écran d’accueil, avec une navigation fluide et
+            logique.
+          </p>
+        </div>
+
+        <div>
+          <img src="" loading="lazy" />
+        </div>
+      </section>
+
+      <section>
+        <h2>Conclusion</h2>
+
+        <p>
+          Notre projet est une réponse concrète et accessible à une
+          problématique réelle et urgente. Il donne aux aidants les moyens de se
+          recentrer sur l’essentiel : le lien humain, le soin, et l’équilibre
+          personnel. L’objectif est simple : aider ceux qui aident.
+        </p>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <div id="divF1">
+      <img src="assets/assetsProjetAidant/logoAidant3.png" alt="" />
     </div>
-  </section>
-
-<section >
-      <div  class="sectionFlex">
-        <h2>Contexte</h2>
-        <p>
-          En France, plus de 11 millions d’aidants familiaux accompagnent un
-          proche malade ou en perte d’autonomie. Beaucoups se sentent isolés,
-          débordés et mal informés. Notre projet est née pour répondre à cette
-          réalité, en proposant un outil simple et humain pour les soutenir au
-          quotidien.
-        </p>
-      </div>
-    </section>
-
-    <section class="backgroundViolet">
-      <div class="sectionFlex">
-        <h2>Notre mission</h2>
-        <p>
-          Notre objectif est de faciliter la vie des aidants grâce à une
-          application mobile qui centralise les soins, fluidifie la communication
-          avec les professionnels et la famille, et réduit la charge mentale liée
-          à l’organisation, des rendez-vous, traitements et échanges médicaux.
-        </p>
-      </div>
-    </section>
-
-    <section class="persona">
-       <div class="sectionFlex"class="cardpersona">
-      <h2>Persona</h2>
-        <img src="assets/assetsProjetAidant/Persona-1.png" loading="lazy" />
-        <p>
-          Notre utilisateur principal est Claire, 42 ans, secrétaire médicale et
-          aidante pour son père. Elle a peu de temps, de nombreuses
-          responsabilités, et cherche un outil intuitif pour s’organiser, poser
-          ses questions et retrouver toutes les infos importantes au même
-          endroit.
-        </p>
-      </div>
-    </section>
-
-    <section class="backgroundViolet">
-      <div id="divFonctionnement" class="sectionFlex">
-      <h2>Comment ça fonctionne ?</h2>
-
-      <h3>
-        L’application propose un espace personnel organisé autour de plusieurs
-        outils :
-      </h3>
-
-      <ol>
-        <li>Une messagerie pour joindre les intervenants de la structure de santé.</li>
-        <li>Un cahier de liaison</li>
-        <li>Un système de préparation de visite médicale</li>
-        <li>Un espace de stockage de documents</li>
-        <li>Des onglets séparés pour les pros et la famille</li>
-        <li>Un pilulier numérique</li>
-      </ol>
-      </div>
-    </section>
-
-    <section class="sectionFlex" class="flow">
-      <h2>Notre flow utilisateur</h2>
-      <img src="assets/assetsProjetAidant/Flow-utilisateur.png" loading="lazy" />
-    </section>
-
-    <section id="services" class="backgroundViolet">
-      <div class="sectionFlex">
-      <h2>Nos services</h2>
-     
-        <h3>Messagerie instantanée</h3>
-        <p>Poue échanger facilement avec les bons contacts</p>
-     
-     
-        <h3>Préparation de la visite</h3>
-        <p>Ne plus rien oublier avant un rendez vous médical</p>
-      
-     
-        <h3>Espace partagé de coordination</h3>
-        <p>Suivi des soins, documents et traitements</p>
-      
-      
-        <h3>Cahier de liaison</h3>
-        <p>Suivi structuré pour tous les intervenants</p>
-      
-     
-        <h3>Fiche de contact de santé</h3>
-        <p>Infos clés sur les pro de la santé(RCCP,horaires,)</p>
-   
-      </div>
-    </section>
-
-    <section>
-      <div class="sectionFlex">
-        <h2>Notre Prototype Haute fidélité</h2>
-        <p>
-          Nous avons réalisé un prototype fonctionnel en haute fidélité sur
-          Figma. L’interface est claire, apaisante et facile à utiliser, même
-          pour les utilisateurs peu à l’aise avec le numérique. L’essentiel est
-          accessible dès l’écran d’accueil, avec une navigation fluide et
-          logique.
-        </p>
-      </div>
-
-      <div>
-        <img src="" loading="lazy" />
-      </div>
-    </section>
-
-  </main>
-</body>
-
-<footer>
-  <div id="divF1">
-    <img src="assets/assetsProjetAidant/logoAidant3.png" alt="" />
-  </div>
-  <div id="divF2">
-    <ul>
-      <li><a href="/index.html">Accueil</a></li>
-      <li><a href="#sectionMokupVisit">Notre Solution</a></li>
-      <li><a href="#sectionAvis">Les Avis</a></li>
-      <li><a href="#sectionRdv">Prendre RDV</a></li>
-      <li><a href="#footer">Contact</a></li>
-      <!-- <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li> -->
-    </ul>
-  </div>
-  <div id="divF3">
-    <a href="" class="buttonNavBar">Nous contacter</a>
-    <p>entraide@contact.fr</p>
-    <p>04 78 70 24 34</p>
-  </div>
-</footer>
-
+    <div id="divF2">
+      <ul>
+        <li><a href="/index.html">Accueil</a></li>
+        <li><a href="#sectionMokupVisit">Notre Solution</a></li>
+        <li><a href="#sectionAvis">Les Avis</a></li>
+        <li><a href="#sectionRdv">Prendre RDV</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <!-- <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li> -->
+      </ul>
+    </div>
+    <div id="divF3">
+      <a href="" class="buttonNavBar">Nous contacter</a>
+      <p>entraide@contact.fr</p>
+      <p>04 78 70 24 34</p>
+    </div>
+  </footer>
 </html>

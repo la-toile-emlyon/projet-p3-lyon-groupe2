@@ -176,7 +176,7 @@ nav {
 }
 .cardProb {
   text-align: center;
-  box-shadow: 0px 0px 11px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 380px;
 
@@ -392,7 +392,7 @@ footer {
 
 
 /* -------------------------------------------DOC.HTML-------------------------------------------- */
-.persona {
+.personas {
   img {
     width: 80%;
    
