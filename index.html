@@ -34,7 +34,7 @@
 
   <header>
     <nav>
-      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo"></a>
+      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo" loading="lazy" ></a>
 
       <ul>
         <li><a href="#sectionHero">Accueil</a></li>
@@ -55,12 +55,12 @@
       <div id="divTextHero">
         <h1>Parce qu’aider ne devrait jamais rimer avec s’épuiser.</h1>
         <p>Une application pensée pour les aidants familiaux, pour mieux communiquer, s’organiser et souffler.</p>
-        <a class="button"
+        <a id="buttonnotre"
           href="https://www.figma.com/proto/320cux4rP77rgpUI5gm65H/Sant%C3%A9Files?node-id=157-1105&t=mMuyuwdTaCyG8IaR-1&scaling=min-zoom&content-scaling=fixed&page-id=92%3A479&starting-point-node-id=157%3A1105&show-proto-sidebar=1">Télécharger
           l'Application</a>
       </div>
 
-      <img src="assets/assetsProjetAidant/imgHero.png" alt="photo d'une aidante avec une proche aidée.">
+      <img src="assets/assetsProjetAidant/imgHero.png" alt="photo d'une aidante avec une proche aidée." loading="lazy" >
 
     </div>
   </section>
@@ -96,7 +96,7 @@
     
   <section   class="backgroundViolet" class="sectionMokup" id="sectionMokups">
     <div class="divMokup">
-      <img src="assets/assetsProjetAidant/preparationFigma.png" alt="mokup téléphone avec l'interface visite ">
+      <img src="assets/assetsProjetAidant/mokupFigmaVisit.png" alt="mokup téléphone avec l'interface visite " loading="lazy" >
       <div class="TextMokup">
         <h3>Préparation de la visite </h3>
         <p>Organisez chaque rendez-vous médical en amont : notez les questions à poser, les documents à apporter, les
@@ -118,7 +118,7 @@
         <p>Regroupez toutes les informations utiles au même endroit (soins, contacts, traitements…), accessibles à
       tous les intervenants pour un meilleur suivi collectif du patient.</p>
       </div>
-        <img src="assets/assetsProjetAidant/planningFigma.png"
+        <img src="assets/assetsProjetAidant/mokupFigmaPlanning.png" alt="mokup planning" loading="lazy" >
     </div> 
 
   </section>
@@ -126,7 +126,7 @@
 <!-- _____________________________________________________________ -->
 <section class="backgroundViolet" class="sectionMokup">
   <div class="divMokup">
-    <img src="assets/assetsProjetAidant/mokupMessagerie.png" alt="">
+    <img src="assets/assetsProjetAidant/mokupFigmaMessagerie.png" alt="mokup messagerie" loading="lazy" >
 <div class="TextMokup" >
     <h3>Messagerie simplifiée</h3>
     <p>Communiquez facvilement avec les professionnels de santé, les proches et les autres aidants
@@ -147,7 +147,7 @@
    
     <div class="containerAvis" class="d" id="track">
         <article class="cardAvis">
-        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Solenne" class="photo" loading="lazy" style="margin-left: 10px"/>
+        <img id="imgVert" src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Solenne" class="photo" loading="lazy" style="margin-left: 10px"/>
         <div>
           <h3>Solenne</h3>
           <h4>Psychologue</h4>
@@ -157,7 +157,7 @@
 
       <!-- Slide 2 -->
       <article class="cardAvis">
-        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Valérie" class="photo" loading="lazy"/>
+        <img id="imgViolet"src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Valérie" class="photo" loading="lazy"/>
         <div>
           <h3>Valérie</h3>
           <h4>Infirmière</h4>
@@ -167,7 +167,7 @@
 
       
       <article class="cardAvis">
-        <img src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Nathalie" class="photo" loading="lazy" />
+        <img id="imgBleu"src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Nathalie" class="photo" loading="lazy" />
         <div>
           <h3>Nathalie</h3>
           <h4>Aidante</h4>
@@ -197,13 +197,13 @@
     <h2>Ils nous soutiennent</h2>
     <div class="divWidth">
       <div class="cardSoutient">
-        <img src="assets/assetsProjetAidant/Maintenir-logo-noir-et-organge-vif-300x247.png.webp" 6>
+        <img src="assets/assetsProjetAidant/Maintenir-logo-noir-et-organge-vif-300x247.png.webp" alt="logo structure de santé Maintenir" loading="lazy" >
       </div>
       <div class="cardSoutient">
-        <img src="assets/assetsProjetAidant/logo-adenes.png">
+        <img src="assets/assetsProjetAidant/logo-adenes.png" alt="logo groupe Adène" loading="lazy" >
       </div>
       <div class="cardSoutient">
-        <img src="assets/assetsProjetAidant/OVPAR_baseline_déclinaison-HD.jpg">
+        <img src="assets/assetsProjetAidant/OVPAR_baseline_déclinaison-HD.jpg" alt="logo Ovpar SSIAD" loading="lazy" >
       </div>
     </div>
   </section>
@@ -219,18 +219,15 @@
 <div id="buttonConversion">
   <h3>Téléchargez l'application</h3>
   <div id="buttonFlex">
- <a href=""><img id="logo" src="assets/assetsProjetAidant/logoAppStore.png" alt="logo iPhone"></a>
- <a href=""><img id="logo" src="assets/assetsProjetAidant/logoGooglePlayStore.png" alt="logo Android"></a>
+ <a href=""><img id="logo" src="assets/assetsProjetAidant/logoAppStore.png" alt="logo iPhone" loading="lazy" ></a>
+ <a href=""><img id="logo" src="assets/assetsProjetAidant/logoGooglePlayStore.png" alt="logo Android" loading="lazy" ></a>
  </div>
 </div>
 
 </div>
-<img src="assets/assetsProjetAidant/iphoneLogo.png" alt="">
+<div id="imgMokupLogo">
+<img src="assets/assetsProjetAidant/mokupFigmaLogo.png" alt="mokup logo" loading="lazy" >
 </div>
-
-
-
-
   </section>
 
 
@@ -244,7 +241,7 @@
 
 <footer>
   <div id="divF1">
-    <img src="assets/assetsProjetAidant/logoAidant3.png" alt="">
+    <img src="assets/assetsProjetAidant/logoAidant3.png" alt="logo">
   </div>
   <div id="divF2">
     <ul>

@@ -208,8 +208,11 @@ nav {
   margin: auto;
   overflow: hidden;
   padding: auto;
-  img {
+  #imgVert{
     border: solid 6px var(--vertClair);
+  }
+  #imgBleu{
+     border: solid 6px var();
   }
 }
 
@@ -277,6 +280,7 @@ nav {
   display: flex;
   img {
     width: 50%;
+    padding-inline: 30px;
   }
   margin-inline: 120px;
 }
@@ -323,6 +327,7 @@ width: 400px;
     p {
       font-size: 30px;
     }
+    
     #buttonConversion {
       display: flex;
       flex-direction: column;
@@ -340,6 +345,14 @@ width: 400px;
   }
   #divConversion {
     margin-left: 40px;
+    width: 55%;
+  }
+  img{
+   width:60%;
+  }
+  #imgMokupLogo{
+    width: 40%;
+    text-align: center;
   }
 }
 
@@ -413,6 +426,7 @@ footer {
   margin: auto;
   padding-bottom: 80px;
   justify-self: anchor-center;
+      text-align: center;
 }
 
 .sectionCenter{
@@ -428,6 +442,30 @@ text-align: center;
   margin-bottom: 60px;
  }
 }
+.bilflex{
+      h3{
+            padding-top: 40px;
+      }
+}
+#olspace{
+  margin-top: 40px;
+  font-size: 25px;
+  text-align: left;
+}
+
+#buttonnotre {
+ border: solid 1px var(--violetFonce);
+  background-color: var(--violetFonce);
+  color: var(--white);
+  padding: 16px 8px;
+  border-radius: 30px 30px 30px;
+}
+
+
+
+
+
+
 
 /* #divFonctionnement{
 li{
