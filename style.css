@@ -394,7 +394,7 @@ width: 400px;
   }
   
 
- #buttonConversion {
+ /* #buttonConversion {
       display: flex;
       flex-direction: column;
       margin-top: 80px;
@@ -418,8 +418,8 @@ width: 400px;
       display: flex;
       flex-direction: row;
       gap: 20px;
-    }
-    }
+    } */
+    /* } */
 }
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
