@@ -157,10 +157,12 @@ nav {
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
 #sectionHero {
   padding-top: 107px;
+  background-color: var(--violetClair);
   /* padding top pour faire apparaitre la section qui est sous la navBar fixed */
   img {
     width: 50%;
   }
+  
   #divHero {
     width: 100%;
     display: flex;
@@ -383,14 +385,15 @@ width: 400px;
     width: 55%;
   }
   img{
-   width:60%;
+   width:100%;
+
   }
   #imgMokupLogo{
-    width: 40%;
+    width: 60%;
     text-align: center;
   }
   
-}
+
  #buttonConversion {
       display: flex;
       flex-direction: column;
@@ -417,7 +420,7 @@ width: 400px;
       gap: 20px;
     }
     }
-  
+}
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
 footer {
