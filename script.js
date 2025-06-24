@@ -7,7 +7,7 @@ let index = 0;
 
 function updateSlide() {
 const slideWidth = slides[0].getBoundingClientRect().width;
-    track.style.transform = `translateX(-${index * slideWidth}px)`;
+  track.style.transform = `translateX(-${index * slideWidth}px)`;
 }
 
 nextBtn.addEventListener("click", () => {

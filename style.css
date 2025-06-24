@@ -1,3 +1,128 @@
+/* Import des polices */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Lato:wght@400;700&display=swap');
+
+/* Variables CSS */
+:root {
+  --color-bg-primary: #fdfaff;
+  --color-bg-secondary: #f9ddd4;
+  --color-accent: #bfdfdd;
+  --color-text: #4b4259;
+  --color-text-light: #7c738a;
+  --color-link: #9f8fcb;
+  --color-link-hover: #836bb2;
+  --color-cta: #c7b6e5;
+  --color-cta-hover: #b29cda;
+  --color-white: #ffffff;
+
+  --font-title: 'Montserrat Alternates', sans-serif;
+  --font-text: 'Lato', sans-serif;
+}
+
+/* Global reset et base */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: var(--font-text);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Titres */
+h1, h2, h3 {
+  font-family: var(--font-title);
+  color: var(--color-text);
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Paragraphes et texte courant */
+p {
+  font-size: 17px;
+  color: var(--color-text-light);
+  margin-bottom: 1.5em;
+}
+/* text a droite */
+.txt-right{
+  text-align: right;
+}
+/* Liens */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+/* Boutons */
+.btn {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: var(--color-cta);
+  color: var(--color-white);
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: 600;
+  border: solid var(--color-cta) 1.5px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.btn.ghost{
+  background-color: transparent;
+  color: var(--color-cta);
+}
+.btn:hover {
+  background-color: var(--color-cta-hover);
+}
+.buttonFlex{
+  display: flex;
+  gap: 4px;
+  width: 50%;
+
+    img{
+      width: inherit;
+    }
+}
+
+/* Petits textes */
+small {
+  font-size: 14px;
+  color: var(--color-text-light);
+}
+
+/* backgrounds */
+.bg-white{
+  background: white;
+}
+
+/* ancien style */
 :root {
   --violetFonce: #962daf;
   --violetClair: #e5d8f4;
@@ -9,58 +134,46 @@
   --violetDegrade:#F5EEFC;
 }
 
-* {
+/* * {
   margin: 0%;
   padding: 0%;
-  list-style: none;
   text-decoration: none;
-  overscroll-behavior: none;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
 
   font-family: "Work Sans", sans-serif;
   /* font-family: "Montserrat Alternates", sans-serif; */
-}
 
-html,
-.root {
+
+/* html{
   font-size: 18px;
   line-height: 1.5;
   color: var(--blackParagraph);
-}
-h1,
+} */
+/* h1,
 h2,
 h3 {
   line-height: 1.1;
-  font-family: "Montserrat Alternates", sans-serif;
   color: var(--blackTitre);
+  font-family: "Montserrat Alternates", sans-serif;
 }
-h1,
-.h1 {
+h1{
   font-size: 56px;
-  margin-top: 26px;
-  margin-bottom: 52px;
   font-weight: 700;
-  line-height: 1.5;
+  margin-bottom: 8px;
 }
-h2,
-.h2 {
+h2{
   font-size: 42px;
-  margin-top: 100px;
-  margin-bottom: 80px;
   color: var(--violetFonce);
-  text-align: center;
+  margin-bottom: 8px;
 }
-h3,
-.h3 {
+h3{
   font-size: 26px;
-  margin-bottom: 40px;
+  margin-bottom: 4px;
 }
 
 html {
   height: 100%;
   width: 100%;
-}
+} */
 
 img{
   object-fit: cover;
@@ -69,8 +182,14 @@ img{
 .divWidth {
   display: flex;
   max-width: 1200px;
-  margin: auto;
   width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.column{
+  flex-direction: column;
 }
 
 .buttonNavBar {
@@ -108,7 +227,7 @@ img{
 }
 
 .sectionPadding{
-  padding: 60px;
+  padding: 80px 24px;
 }
 .buttonTelechargement {
   border: solid 1px var(--blackTitre);
@@ -126,12 +245,12 @@ nav {
   width: 100%;
   padding: 15px;
   background-color: var(--violetFonce);
-  align-items: center;
   /* Alignement vertical */
   cursor: pointer;
   position: fixed;
   z-index: 10;
   width: 100%;
+  gap: 10px;
   img {
     width: 79px;
     height: 70px;
@@ -141,7 +260,7 @@ nav {
   ul {
     width: 70%;
     display: flex;
-    justify-content: space-around;
+
     /* Espace entre les liens */
     a {
       color: var(--white);
@@ -153,54 +272,59 @@ nav {
     }
   }
 }
+ #nav1{
+  display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+#nav2{
+  display: flex;
+align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+  }
+
+  #nav3{
+    display: flex;
+align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    li{
+             text-align: center;
+        background-color: #836bb2;
+        padding: 10px 15px;
+        border-radius: 30px;
+    }
+  }
+ #nav4{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
+.contentColumn{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #sectionHero {
   padding-top: 107px;
   background-color: var(--violetClair);
+  display: flex;
+  width: 100%;
   /* padding top pour faire apparaitre la section qui est sous la navBar fixed */
-  img {
-    width: 50%;
+  .contentColumn{
+    padding: 64px;
   }
-  
-  #divHero {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    /* margin-left: 264px; */
-    /* section total = 1728 - 1200= 528/2= 264  */
-  }
-  #divTextHero {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    /* margin-right: 185px; */
-    margin-left: 40px;
-    p {
-      font-size: 30px;
-      font-weight: 500;
-      padding-bottom: 35px;
-    }
-    a {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      font-weight: 500;
-      font-size: 18px;
-      gap: 13px;
-      padding-block: 10px;
-      padding-inline: 15px;
-      img{
-      width: 75px;
-      }
-    }
-    .buttonFlex{
-      display: flex;
-      gap: 20px;
-    }
-  }
+}
+#sectionHero>img{
+  width: 50%;
 }
 /* -------------------------------------------Section Problematique----------------------------------------------- */
 #sectionProblematique {
@@ -227,7 +351,6 @@ nav {
 }
 .divWidthP {
   display: flex;
-  max-width: 1200px;
   justify-self: center;
   gap: 25px;
 }
@@ -238,10 +361,10 @@ nav {
 
 #slider {
   position: relative;
-  width: auto;
+  width: 100%;
   margin: auto;
   overflow: hidden;
-  padding: auto;
+  padding-block: 12px;
 
   #imgVert{
     border: solid 6px var(--vertClair);
@@ -257,7 +380,6 @@ nav {
 .containerAvis {
   display: flex;
   transition: transform 0.4s ease;
-  gap: 1rem;
   margin: auto;
 }
 
@@ -284,16 +406,22 @@ nav {
   object-fit: cover;
   flex-shrink: 0;
 }
-
-.fleche {
-  position: absolute;
-  top: 50%;
+.arrows{
+  /* position: absolute; */
+  /* top: 50%;
   transform: translateY(-50%);
+  z-index: 1; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.fleche {
   background: #fff;
   border-radius: 50%;
-  z-index: 1;
-  width: 30px;
-  height: 30px;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 4px 15px #00000030;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,49 +438,37 @@ nav {
 
 /* ------------------------------------------SECTION MOKUPS---------------------------------------------- */
 
-.sectionMokup {
-  display: flex;
-  width: 100%;
-   h2{
-    margin-top:0px;
-  }
-}
 .divMokup {
   display: flex;
+  gap: 24px;
   img {
     width: 50%;
-    padding-inline: 30px;
   }
-  
-  margin-inline: 120px;
-}
-.TextMokup {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  padding-left: 50px;
 }
 #backgroundVioletDegrade{
   background-color: var(--violetDegrade);
 }
-#sectionMokups{
-  h2{
-    margin-top: 0px;
-  }
-}
-/* #boxSize{
-width: 400px;
-} */
 
 /*---------------------------------sectionSoutienCheick--------------------------------------------------*/
+#sectionSoutien{
+  .partenaires-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 40px;
+    img {
+      width: 161px;
+    }
+  }
+}
 /* #sectionSoutien{ */
   /* height:750px;
   display: flex;
  flex-direction: column;
  align-items: center; */
 /* } */
-.divWidth {
+/* .divWidth {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -361,65 +477,15 @@ width: 400px;
     height: 170px;
     gap: 50px;
   }
-}
+} */
 
 /* ---------------------------------------------SECTION CONVERSION HASNA-------------------------------- */
 
 #sectionConversion {
-  display: flex;
-  .divWidth {
-    flex-direction: column;
-    h2 {
-      margin-bottom: 10px;
-    }
-    h3 {
-      margin-bottom: 0px;
-    }
-    p {
-      font-size: 30px;
-    }
-    
-  }
-  #divConversion {
-    margin-left: 40px;
-    width: 55%;
-  }
-  img{
-   width:100%;
 
-  }
-  #imgMokupLogo{
-    width: 60%;
-    text-align: center;
-  }
-  
-
- #buttonConversion {
-      display: flex;
-      flex-direction: column;
-      margin-top: 80px;
-      text-align: center;
-    }
-     #buttonCtaConversion {
-      a {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      font-weight: 500;
-      font-size: 18px;
-      gap: 13px;
-      padding-block: 10px;
-      padding-inline: 15px;
-      img{
-      width: 75px;
-      }
-    }
-    .buttonFlex{
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-    }
-    }
+}
+#sectionConversion>.divWidth>img {
+  width: 50%;
 }
 
 /*-------------------------------------sectionFooterCheick------------------------------------------------*/
@@ -474,13 +540,12 @@ footer {
 .personas {
   img {
     width: 80%;
-   
+
   }
 }
 .flow {
    img {
     width: 80%;
-   
   }
 }
 
@@ -526,11 +591,6 @@ text-align: center;
   padding: 16px 8px;
   border-radius: 30px 30px 30px;
 }
-
-#frame {
-  
-}
-
 
 
 
