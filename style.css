@@ -313,17 +313,26 @@ nav {
   justify-content: center;
 }
 #sectionHero {
-  padding-top: 107px;
+  padding-top: 140px;
   background-color: var(--violetClair);
   display: flex;
+  justify-content: center;
   width: 100%;
   /* padding top pour faire apparaitre la section qui est sous la navBar fixed */
   .contentColumn {
-    padding: 64px;
+    padding-left: 64px;
   }
 }
+.blob-image {
+  max-width: 45%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 58px;
+  aspect-ratio: auto;
+  place-self: center;
+}
 #sectionHero > img {
-  width: 50%;
 }
 /* -------------------------------------------Section Problematique----------------------------------------------- */
 #sectionProblematique {
@@ -451,8 +460,8 @@ nav {
 #sectionMokups {
   background: linear-gradient(#e5d8f445, #e5d8f4);
 }
-*---------------------------------sectionSoutienCheick--------------------------------------------------*/
-  #sectionSoutien {
+/*---------------------------------sectionSoutienCheick-------------------------------------------------- */
+#sectionSoutien {
   .partenaires-wrapper {
     display: flex;
     width: 100%;
@@ -603,7 +612,7 @@ footer {
 #divTextHeroDoc {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
 
   .button {
     background-color: #3e3e3e;
@@ -641,5 +650,16 @@ li {
 /* ------------------------------------FONCTIONNALITES A VENIR--------------------------- */
 
 #sectionAvenir {
+  text-align: center;
+}
+
+.divfoot {
+  display: flex;
+  width: -webkit-fill-available;
+}
+
+#divf1 {
+  width: 30%;
+  align-self: anchor-center;
   text-align: center;
 }

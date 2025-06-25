@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
+   <link rel="icon" type="image/x-icon" href="assets/assetsProjetAidant/logoAidant3.png">
+
 
 
 
@@ -32,16 +34,7 @@
 
   <!-- ---------------------------------NAVBAR HASNA----------------------------------- -->
 
-  <header>
-    <nav>
-      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo" loading="lazy" ></a>
-      <ul id="nav1">
-        <li><a href="#sectionHero">Accueil</a></li>
-        <li><a href="doc.html">Documentation</a></li>
-        <li><a href="#sectionConversion">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+
   <header>
     <nav>
       <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo" loading="lazy" ></a>
@@ -58,7 +51,7 @@
   <section id="sectionHero">
     <div class="contentColumn">
       <h1>Alléger votre charge mentale, on vous aide à mieux accompagner votre proche.</h1>
-      <p>Une application pensée pour les aidants familiaux, pour mieux communiquer, s’organiser et souffler.</p>
+      <p>Une application qui vous simplifiera votre quotidien d'aidant.</p>
 
 <!-- agrandir le texte p 30px-->
 
@@ -71,12 +64,9 @@
       </div>
     </div>
 
-    <img src="assets/assetsProjetAidant/imlgHeroHtml.png" alt="photo d'une aidante avec une proche aidée." loading="lazy" >
+    <img class="blob-image" src="assets/assetsProjetAidant/imlgHeroHtml.png" alt="photo d'une aidante avec une proche aidée." loading="lazy" >
 
   </section>
-
-
-
   <!-- ------------------------------------------SECTION PROBLEMATIQUE BILAL--------------------------------------- -->
   <section class="sectionPadding" id="sectionProblematique">
     <div class="divWidth column">
@@ -215,7 +205,7 @@
 <!-- ---------------------------------------SECTION CONVERSION HASNA--------------------------------------------------------- -->
 <section class="backgroundViolet" id="sectionConversion">
   <div class="divWidth">
-    <div class="contentColumn"  >
+    <div class="contentColumn">
         <h2>Une application pour les Aidants faites par des Aidants</h2>
         <p>Simplifiez votre quotidien avec une application qui vous soulage. N'ayez plus peur du lendemain ! Découvrez votre aide faite pour vous et réduisez votre charge mentale.</p>
       <div id="buttonConversion">
@@ -239,10 +229,14 @@
 
 <!-- ------------------------------FOOTER----------------------------------------------------------- -->
 <footer>
-  <div id="divF1">
+
+
+  <div class="divfoot">
+    
+  <div id="divf1">
     <img src="assets/assetsProjetAidant/logoAidant3.png" alt="logo">
   </div>
-  <div id="divF2">
+  <div class="divf2">
     <ul id="nav1">
       <li><a href="index.html">Accueil</a></li>
       <!-- <li><a class="buttonNavBar" href="/index.html">Retour à l'Accueil</a></li> -->
@@ -255,10 +249,17 @@
       <!-- <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li> -->
     </ul>
   </div>
-  <div id="divF3">
-    <a href="" class="buttonNavBar">Nous contacter</a>
+  <div class="divf2">
+    <!-- <a href="" class="buttonNavBar">Nous contacter</a> -->
+    <ul>
+      <li>
+        <a href="#sectionConversion">Contact</a>
+      </li>
+    </ul>
+
     <p>entraide@contact.fr</p>
     <p>04 78 70 24 34 </p>
+  </div>
   </div>
 </footer>
 <script src="script.js" type="text/javascript"></script>
