@@ -1,5 +1,5 @@
 /* Import des polices */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Lato:wght@400;700&display=swap");
 
 /* Variables CSS */
 :root {
@@ -14,19 +14,18 @@
   --color-cta-hover: #b29cda;
   --color-white: #ffffff;
 
-  --font-title: 'Montserrat Alternates', sans-serif;
-  --font-text: 'Lato', sans-serif;
+  --font-title: "Montserrat Alternates", sans-serif;
+  --font-text: "Lato", sans-serif;
 }
 
 /* Global reset et base */
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   overscroll-behavior: none;
   scroll-behavior: smooth;
   box-sizing: border-box;
-
 }
 body {
   font-family: var(--font-text);
@@ -36,7 +35,9 @@ body {
 }
 
 /* Titres */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-title);
   color: var(--color-text);
   margin-bottom: 0.5em;
@@ -65,7 +66,7 @@ p {
   margin-bottom: 1.5em;
 }
 /* text a droite */
-.txt-right{
+.txt-right {
   text-align: right;
 }
 /* Liens */
@@ -94,21 +95,21 @@ a:hover {
   transition: background-color 0.3s ease;
   text-align: center;
 }
-.btn.ghost{
+.btn.ghost {
   background-color: transparent;
   color: var(--color-cta);
 }
 .btn:hover {
   background-color: var(--color-cta-hover);
 }
-.buttonFlex{
+.buttonFlex {
   display: flex;
   gap: 4px;
   width: 50%;
 
-    img{
-      width: inherit;
-    }
+  img {
+    width: inherit;
+  }
 }
 
 /* Petits textes */
@@ -118,7 +119,7 @@ small {
 }
 
 /* backgrounds */
-.bg-white{
+.bg-white {
   background: white;
 }
 
@@ -131,7 +132,7 @@ small {
   --white: #fbfeff;
   --vertClair: #bfdfdd;
   --orange: #f9ddd4;
-  --violetDegrade:#F5EEFC;
+  --violetDegrade: #f5eefc;
 }
 
 /* * {
@@ -141,7 +142,6 @@ small {
 
   font-family: "Work Sans", sans-serif;
   /* font-family: "Montserrat Alternates", sans-serif; */
-
 
 /* html{
   font-size: 18px;
@@ -175,7 +175,7 @@ html {
   width: 100%;
 } */
 
-img{
+img {
   object-fit: cover;
 }
 
@@ -188,7 +188,7 @@ img{
   align-items: center;
   gap: 32px;
 }
-.column{
+.column {
   flex-direction: column;
 }
 
@@ -226,7 +226,7 @@ img{
   padding: 60px;
 }
 
-.sectionPadding{
+.sectionPadding {
   padding: 80px 24px;
 }
 .buttonTelechargement {
@@ -236,7 +236,6 @@ img{
   padding: 18px 8px;
   border-radius: 30px 30px 30px;
 }
-
 
 /* ---------------------------------------NAVBAR HASNA---------------------------------------------------------------- */
 nav {
@@ -272,42 +271,42 @@ nav {
     }
   }
 }
- #nav1{
+#nav1 {
   display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
-  }
-#nav2{
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+#nav2 {
   display: flex;
-align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px 0;
-  }
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+}
 
-  #nav3{
-    display: flex;
-align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-    li{
-             text-align: center;
-        background-color: #836bb2;
-        padding: 10px 15px;
-        border-radius: 30px;
-    }
-  }
- #nav4{
+#nav3 {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  li {
+    text-align: center;
+    background-color: #836bb2;
+    padding: 10px 15px;
+    border-radius: 30px;
   }
+}
+#nav4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
 /* -----------------------------------SECTION HERO HASNA--------------------------------------------- */
-.contentColumn{
+.contentColumn {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -319,11 +318,11 @@ align-items: center;
   display: flex;
   width: 100%;
   /* padding top pour faire apparaitre la section qui est sous la navBar fixed */
-  .contentColumn{
+  .contentColumn {
     padding: 64px;
   }
 }
-#sectionHero>img{
+#sectionHero > img {
   width: 50%;
 }
 /* -------------------------------------------Section Problematique----------------------------------------------- */
@@ -366,14 +365,14 @@ align-items: center;
   overflow: hidden;
   padding-block: 12px;
 
-  #imgVert{
+  #imgVert {
     border: solid 6px var(--vertClair);
   }
-  #imgOrange{
-     border: solid 6px var(--orange);
+  #imgOrange {
+    border: solid 6px var(--orange);
   }
-   #imgViolet{
-     border: solid 6px var(--violetClair);
+  #imgViolet {
+    border: solid 6px var(--violetClair);
   }
 }
 
@@ -406,7 +405,7 @@ align-items: center;
   object-fit: cover;
   flex-shrink: 0;
 }
-.arrows{
+.arrows {
   /* position: absolute; */
   /* top: 50%;
   transform: translateY(-50%);
@@ -445,13 +444,13 @@ align-items: center;
     width: 50%;
   }
 }
-#backgroundVioletDegrade{
+#backgroundVioletDegrade {
   background-color: var(--violetDegrade);
 }
 
 /*---------------------------------sectionSoutienCheick--------------------------------------------------*/
-#sectionSoutien{
-  .partenaires-wrapper{
+#sectionSoutien {
+  .partenaires-wrapper {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -463,7 +462,7 @@ align-items: center;
   }
 }
 /* #sectionSoutien{ */
-  /* height:750px;
+/* height:750px;
   display: flex;
  flex-direction: column;
  align-items: center; */
@@ -481,10 +480,7 @@ align-items: center;
 
 /* ---------------------------------------------SECTION CONVERSION HASNA-------------------------------- */
 
-#sectionConversion {
-
-}
-#sectionConversion>.divWidth>img {
+#sectionConversion > .divWidth > img {
   width: 50%;
 }
 
@@ -535,21 +531,19 @@ footer {
   }
 }
 
-
 /* -------------------------------------------DOC.HTML-------------------------------------------- */
 .personas {
   img {
     width: 80%;
-
   }
 }
 .flow {
-   img {
+  img {
     width: 80%;
   }
 }
 
-.sectionFlex{
+.sectionFlex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -557,48 +551,89 @@ footer {
   margin: auto;
   padding-bottom: 80px;
   justify-self: anchor-center;
-      text-align: center;
+  text-align: center;
 }
 
-.sectionCenter{
- text-align: center;
+.sectionCenter {
+  text-align: center;
 }
 
-#services{
-text-align: center;
- h3{
-  margin-bottom: 15px;
- }
- p{
-  margin-bottom: 60px;
- }
+#services {
+  text-align: center;
+  h3 {
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 60px;
+  }
 }
-.bilflex{
-      h3{
-            padding-top: 40px;
-      }
+.bilflex {
+  h3 {
+    padding-top: 40px;
+  }
 }
-#olspace{
+#olspace {
   margin-top: 40px;
   font-size: 25px;
   text-align: left;
 }
 
 #buttonnotre {
- border: solid 1px var(--violetFonce);
+  border: solid 1px var(--violetFonce);
   background-color: var(--violetFonce);
   color: var(--white);
   padding: 16px 8px;
   border-radius: 30px 30px 30px;
 }
 
+/* #imgFlow#divFonctionnement{}; */
 
-
-
-
-
-/* #divFonctionnement{
-li{
- text-decoration: solid;
+/* -------------------------------------SECTION HERO------------------------------------- */
+#sectionHeroDoc {
+  padding-top: 107px;
+  display: flex;
 }
-} */
+#divHero {
+  display: flex;
+  img {
+    width: 50%;
+  }
+  .button {
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+    padding: 18px 15px;
+  }
+}
+#divTextHeroDoc {
+  width: 50%;
+}
+/* --------------------------------------------SERVICES-------------------------------- */
+#services {
+  p {
+    margin: 0px;
+  }
+}
+#imgFlowPlanning {
+  width: 65%;
+  align-self: anchor-center;
+}
+#imgFloxMessagerie {
+  width: 100%;
+}
+#imgFlowVisit {
+  width: 80%;
+  align-self: anchor-center;
+}
+li {
+  text-decoration: solid;
+}
+.cardFlow {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 80px;
+}
+/* ------------------------------------FONCTIONNALITES A VENIR--------------------------- */
+
+#sectionAvenir {
+  text-align: center;
+}
