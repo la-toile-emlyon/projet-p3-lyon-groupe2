@@ -439,7 +439,8 @@ nav {
 
 .divMokup {
   display: flex;
-  gap: 24px;
+  gap: 64px;
+
   img {
     width: 50%;
   }
@@ -447,9 +448,11 @@ nav {
 #backgroundVioletDegrade {
   background-color: var(--violetDegrade);
 }
-
-/*---------------------------------sectionSoutienCheick--------------------------------------------------*/
-#sectionSoutien {
+#sectionMokups {
+  background: linear-gradient(#e5d8f445, #e5d8f4);
+}
+*---------------------------------sectionSoutienCheick--------------------------------------------------*/
+  #sectionSoutien {
   .partenaires-wrapper {
     display: flex;
     width: 100%;
@@ -592,21 +595,24 @@ footer {
 #sectionHeroDoc {
   padding-top: 107px;
   display: flex;
-}
-#divHero {
-  display: flex;
+  width: 100%;
   img {
     width: 50%;
   }
+}
+#divTextHeroDoc {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
   .button {
     background-color: #3e3e3e;
     border-color: #3e3e3e;
     padding: 18px 15px;
+    width: 21%;
   }
 }
-#divTextHeroDoc {
-  width: 50%;
-}
+
 /* --------------------------------------------SERVICES-------------------------------- */
 #services {
   p {
