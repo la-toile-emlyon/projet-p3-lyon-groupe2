@@ -1,16 +1,292 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Projet - Page d'accueil</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <script src="script.js" type="text/javascript"></script>
-  </head>
 
-  <body>
-    Accueil
-    <a href="/doc.html">Documentation</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Projet - Page d'accueil</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+   <link rel="icon" type="image/x-icon" href="assets/assetsProjetAidant/logoAidant3.png">
+
+
+
+
+
+
+
+</head>
+
+
+
+<!-- ----------------------------------------------------BODY---------------------------------------------------------------------------------- -->
+
+
+  <!-- ---------------------------------NAVBAR HASNA----------------------------------- -->
+
+
+  <header>
+    <nav>
+      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoEntraide.png" alt="photo logo" loading="lazy" ></a>
+      <ul id="nav1">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="doc.html">Documentation</a></li>
+        <li><a href="#sectionConversion">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <!-- ---------------------------------------------SECTION HERO HASNA------------------------ -->
+  <section id="sectionHero" class="herobg">
+    <div class="blob1"></div>
+    <div class="blob2"></div>
+    <div class="contentColumn">
+      <h1>Alléger votre charge mentale, on vous aide à mieux accompagner votre proche.</h1>
+      <p>Une application qui vous simplifiera votre quotidien d'aidant.</p>
+
+<!-- agrandir le texte p 30px-->
+
+      <div id="buttonConversion">
+        <h3>Téléchargez l'application</h3>
+      </div>
+      <div class="buttonFlex">
+        <img src="assets/assetsProjetAidant/appstore.webp" alt="">
+        <img src="assets/assetsProjetAidant/appstore2.webp" alt="">
+      </div>
+    </div>
+
+    <img class="blob-image" src="assets/assetsProjetAidant/imlgHeroHtml.png" alt="photo d'une aidante avec une proche aidée." loading="lazy" >
+
+  </section>
+
+  <!-- ------------------------------------------SECTION PROBLEMATIQUE BILAL--------------------------------------- -->
+  <section class="sectionPadding" id="sectionProblematique">
+    <div class="divWidth column">
+      <ul id="nav2">
+        <li><a  class="btn" href="#sectionMokups"> Solution</a></li>
+        <li><a class="btn" href="#sectionAvis">Avis</a></li>
+        <li><a class="btn" href="#sectionAvis">Télécharger</a></li>
+      </ul>
+      <h2>Les aidants sont essentiels... ne soyez plus seuls.</h2>
+      <div class="divWidthP">
+        <!-- isolment -->
+        <div class="cardProb">
+          <img src="assets/assetsProjetAidant/iconIsolement.svg" loading="lazy">
+          <h3>Sentiment <br>d’isolement</h3>
+          <p>Les aidants doivent souvent gérer seuls des situations complexes, sans accompagnement clair.</p>
+        </div>
+        <!-- manque de communication -->
+        <div class="cardProb">
+          <img src="assets/assetsProjetAidant/iconCommunication.svg" loading="lazy">
+          <h3>Manque de communication</h3>
+          <p>Difficile de coordonner efficacement entre professionnels, proches et aidants.</p>
+        </div>
+        <!-- charge mental -->
+        <div class="cardProb">
+          <img src="assets/assetsProjetAidant/iconChargeMentale.svg" loading="lazy">
+          <h3> Charge <br>mentale </h3>
+          <p> Ordonnances, soins, rendez-vous… tout repose sur l’aidant, au détriment de sa santé.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- -----------------------------------------SECTION MOKUP VISIT Hasna Sabri------------------------------------------ -->
+
+
+  <section class="backgroundViolet sectionPadding" id="sectionMokups">
+    <!-- container -->
+
+
+    <div class="divWidth column">
+      <h2>Une application qui vous aide à mieux aider.</h2>
+      <!-- Premiere fonctionnalité -->
+        <div class="divMokup">
+          <div class="contentColumn txt-right">
+            <h3>Espace partagé de coordination </h3>
+            <p>Regroupez toutes les informations utiles au même endroit (rendez-vous, contacts soignants), accessibles à tous les intervenants pour un meilleur accompagnement collectif du patient.</p>
+          </div>
+          <img src="assets/assetsProjetAidant/mokupFigmaPlanning.png" alt="mokup planning" loading="lazy" >
+        </div>
+        <!-- deuxieme fonctionnalité -->
+        <div class="divMokup">
+          <img src="assets/assetsProjetAidant/mokupFigmaVisit.png" alt="mokup téléphone avec l'interface visite " loading="lazy" >
+          <div class="contentColumn">
+            <h3>Préparation de la visite </h3>
+            <p>Préparez chaque rendez-vous en amont : vérifiez que le matériel prévu pour l'intervention soit bien complet au domicile du proche… pour gagner du temps et ne rien oublier.</p>
+          </div>
+        </div>
+        <!-- troisième fonctionnalité -->
+        <div class="divMokup">
+
+          <div class="contentColumn txt-right" >
+            <h3>Messagerie simplifiée</h3>
+            <p>Communiquez avec efficacité pour une meilleure coordination entre les professionnels de santé et l'aidant via une interface simple et intuitive</p>
+          </div>
+          <img src="assets/assetsProjetAidant/mokupFigmaMessagerie.png" alt="mokup messagerie" loading="lazy" >
+        </div>
+    </div>
+
+    </section>
+    </div>
+  </section>
+
+  <!-- Interface messagerie-->
+
+  <!-- ---------------------------------------------SECTION AVIS KHAIS---------------------------------------------- -->
+<section  class="sectionPadding" id="avis">
+  <div class="divWidth column">
+    <h2 id="sectionAvis">Ils ont testé: voici ce qu'ils en pensent</h2>
+    <div id="slider">
+      <div class="containerAvis" class="d" id="track">
+        <article class="cardAvis">
+          <img id="imgVert" src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Solenne" class="photo" loading="lazy" style="margin-left: 10px"/>
+          <div>
+            <h3>Solenne</h3>
+            <h4>Psychologue</h4>
+            <p>J'aurais aimé avoir ça bien plus tôt.</p>
+          </div>
+        </article>
+        <article class="cardAvis">
+          <img id="imgViolet"src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Valérie" class="photo" loading="lazy"/>
+          <div>
+            <h3>Valérie</h3>
+            <h4>Infirmière</h4>
+            <p>Je trouve super qu'on connecte tout le monde autour du patient.</p>
+          </div>
+        </article>
+        <article class="cardAvis">
+          <img id="imgOrange"src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Nathalie" class="photo" loading="lazy" />
+          <div>
+            <h3>Nathalie</h3>
+            <h4>Aidante</h4>
+            <p>On se sent moins seul maintenant.</p>
+          </div>
+        </article>
+        <article class="cardAvis">
+          <img id="imgOrange"src="assets/assetsProjetAidant/iconProfilAvis.png" alt="Photo de Nathalie" class="photo" loading="lazy" />
+          <div>
+            <h3>jean</h3>
+            <h4>Aidant</h4>
+            <p>Avec mes enfants et le travail c'est plus simple de prevoire les soins.</p>
+          </div>
+        </article>
+      </div>
+      <div class="arrows">
+        <div id="precedent" class="fleche">&#10094;</div>
+        <div id="suivant" class="fleche">&#10095;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- -------------------------------------SECCTION SOUTIEN CHEIKH---------------------------------------------------- -->
+<section class="sectionPadding bg-white" id="sectionSoutien">
+  <div class="divWidth column">
+  <h2>Ils nous soutiennent</h2>
+    <div class="partenaires-wrapper">
+      <img src="assets/assetsProjetAidant/Maintenir-logo-noir-et-organge-vif-300x247.png.webp" alt="logo structure de santé Maintenir" loading="lazy" >
+      <img src="assets/assetsProjetAidant/logo-adenes.png" alt="logo groupe Adène" loading="lazy" >
+      <img src="assets/assetsProjetAidant/OVPAR_baseline_déclinaison-HD.jpg" alt="logo Ovpar SSIAD" loading="lazy" >
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------------------SECTION CONVERSION HASNA--------------------------------------------------------- -->
+<section class="backgroundViolet" id="sectionConversion">
+  <div class="divWidth">
+    <div class="contentColumn">
+        <h2>Une application pour les Aidants faites par des Aidants</h2>
+        <p>Simplifiez votre quotidien avec une application qui vous soulage. N'ayez plus peur du lendemain ! Découvrez votre aide faite pour vous et réduisez votre charge mentale.</p>
+      <div id="buttonConversion">
+        <h3>Téléchargez l'application</h3>
+      </div>
+      <div class="buttonFlex">
+        <img src="assets/assetsProjetAidant/appstore.webp" alt="">
+        <img src="assets/assetsProjetAidant/appstore2.webp" alt="">
+      </div>
+    </div>
+    <img id="mokupConversion" src="assets/assetsProjetAidant/mokupConversion.png" alt="mokup logo" loading="lazy" >
+  </div>
+</section>
+
+
+
+
+
+<!-- ------------------------------FIN MAIN--------------------------------------------------------------------------------------------------------------- -->
+</main>
+
+<!-- ------------------------------FOOTER----------------------------------------------------------- -->
+<footer class="footer1">
+
+
+  <div class="divfoot">
+
+  <div id="divf1">
+    <img src="assets/assetsProjetAidant/logoEntraide.png" alt="logo">
+    <p>Mieux s’organiser, mieux communiquer, pour mieux aider.</p>
+    <ul id="nav1">
+      <li><a class="btn" href="index.html">Retour en haut</a></li>
+    </ul>
+  </div>
+
+  <div class="divf2">
+    <ul id="nav2">
+      <li><a href="#sectionMokupVisit">Notre Solution</a></li>
+      <li><a href="#sectionAvis">Les Avis</a></li>
+      <li><a href="#sectionRdv">Prendre RDV</a></li>
+      <li><a href="#footer">Contact</a></li>
+      <!-- <li><a class="buttonNavBar" href="/doc.html">Documentation</a></li> -->
+    </ul>
+  </div>
+  <div class="divf3">
+    <!-- <a href="" class="buttonNavBar">Nous contacter</a> -->
+    <ul>
+      <li>
+        <a href="#sectionConversion">Contact</a>
+      </li>
+    </ul>
+
+    <p>entraide@contact.fr</p>
+    <p>04 78 70 24 34 </p>
+     <div class="footer-bottom">
+  <p>&copy; 2025 entrAide – Tous droits réservés.</p>
+</div>
+  </div>
+  </div>
+  <!-- <div class="footer-bottom">
+  <p>&copy; 2025 entrAide – Tous droits réservés.</p>
+</div> -->
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+
+<!-- -------------------------------FIN BODY-------------------------------------------------------------------------------------- -->
+
 </html>
