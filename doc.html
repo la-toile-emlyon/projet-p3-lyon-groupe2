@@ -19,32 +19,23 @@
 </head>
 <!----------------------------------------section NavBar Cheick------------------------------------------>
 
-<body>
-  <!-- <
-  
+<body id="docBody">
 
-<header>
-    <nav>
-      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo" loading="lazy" ></a>
-      <ul id="nav1">
-        <li><a href="#sectionHero">Accueil</a></li>
-        <li><a href="doc.html">Documentation</a></li>
-
-      </ul>
-    </nav>
-  </header>
+  <!----------------------------------------navbar------------------------------------->
   <header>
     <nav>
-      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoAidant3.png" alt="photo logo" loading="lazy" ></a>
+      <a href="index.html"><img id="logo" src="assets/assetsProjetAidant/logoEntraide.png" alt="photo logo" loading="lazy" ></a>
       <ul id="nav1">
-        <li><a href="#sectionHero">Accueil</a></li>
+        <li><a href="index.html">Accueil</a></li>
         <li><a href="doc.html">Documentation</a></li>
         <li><a href="#sectionConversion">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="sectionHeroDoc" class="backgroundViolet">
+
+    <!-- hero section -->
+    <!-- <section id="sectionHeroDoc" class="backgroundViolet">
       <div id="divTextHeroDoc">
         <h1>Documentation</h1>
         <p>
@@ -57,9 +48,10 @@
       </div>
 
       <img src="assets/assetsProjetAidant/imgDocHeros.jpg" alt="photo d'une aidante avec une proche aidée." />
-    </section>
-    --------------------------------------HERO2-------------------------------------
-    <section id="sectionHero">
+    </section> -->
+
+    <!-- hero section v2 -->
+    <!-- <section id="sectionHero">
       <div class="contentColumn">
         <h1>Documentation</h1>
         <p>Une documentation bien pensée pour accompagner chaque étape de l'application entrAide.</p>
@@ -69,11 +61,26 @@
         agrandir le texte p 30px
         <img src="assets/assetsProjetAidant/imgDocHeros.jpg" alt="photo d'une aidante avec une proche aidée."
           loading="lazy">
+    </section> -->
 
+    <!-- hero section v3 -->
+    <section id="sectionHero" class="herobg">
+      <div class="blob1"></div>
+      <div class="blob2"></div>
+      </div>
+      <div class="contentColumn">
+        <h1>Documentation</h1>
+        <p>Une application qui vous simplifiera votre quotidien d'aidant.</p>
+        <a class="btn"
+        href="https://geode-chair-cac.notion.site/P3-Documentation-projet-Sant-Bien-tre-207ad27946348022995dfe47325758d2">Aller
+        sur Notion</a>
+      </div>
+      <img class="blob-image" src="assets/assetsProjetAidant/image.png" alt="photo d'une aidante avec une proche aidée." loading="lazy" >
     </section>
-    <!-- ------------------------------------------------------------------------------------------ -->
-    <section>
-      <div class="sectionFlex">
+
+    <!-- section contexte -->
+    <section class="sectionPadding">
+      <div class="divWidth column">
         <h2>Contexte</h2>
         <p>
           En France, plus de 11 millions d’aidants familiaux accompagnent un
@@ -85,8 +92,9 @@
       </div>
     </section>
 
-    <section id="mission" class="backgroundViolet">
-      <div class="sectionFlex" #>
+    <!-- section mission -->
+    <section class="sectionPadding backgroundViolet" id="mission">
+      <div class="divWidth column" #>
         <h2>Notre mission</h2>
         <p>
           Notre objectif est de faciliter la vie des aidants grâce à une
@@ -97,10 +105,12 @@
       </div>
     </section>
 
-    <section class="personas">
-      <div class="sectionFlex" class="cardpersona">
+    <!-- section personas -->
+    <section class="sectionPadding">
+      <!-- persona 1 -->
+      <div class="divWidth column">
         <h2>Persona 1</h2>
-        <img src="assets/assetsProjetAidant/Persona-1.png" loading="lazy" />
+        <img src="assets/assetsProjetAidant/persona1.png" loading="lazy" />
         <p>
           Notre utilisateur principal est Claire, 28 ans, secrétaire médicale
           et aidante pour son père. Elle a peu de temps, de nombreuses
@@ -109,7 +119,8 @@
           même endroit.
         </p>
       </div>
-      <div class="sectionFlex" class="cardpersona">
+      <!-- persona 2 -->
+      <div class="divWidth column">
         <h2>Persona 2</h2>
         <img src="assets/assetsProjetAidant/persona2.png" loading="lazy" />
         <p>Notre utilisateur est un enseignant rétraité agé de 78 ans.
@@ -120,10 +131,10 @@
       </div>
     </section>
 
-    <section id="fontionnement" class="backgroundViolet">
-      <div class="sectionFlex">
+    <!-- section fonctionnement -->
+    <section class="sectionPadding backgroundViolet" id="fontionnement" >
+      <div class="divWidth column">
         <h2>Comment ça fonctionne ?</h2>
-
         <h3>
           L’application propose un espace personnel organisé autour de
           plusieurs outils :
@@ -140,20 +151,24 @@
       </div>
     </section>
 
-    <section class="sectionFlex" class="flow">
-      <h2>Notre flow utilisateur</h2>
-      <img src="assets/assetsProjetAidant/Figjam-userflow.png" loading="lazy" />
-      <p>
-        L’utilisateur organise les rendez-vous médicaux, envoie des messages aux professionnels. Toutes les informations
-        sont partagées avec l'équipe soignante.
-      </p>
+    <!-- section flow -->
+    <section class="sectionPadding">
+      <div class="divWidth column">
+        <h2>Notre flow utilisateur</h2>
+        <img src="assets/assetsProjetAidant/Figjam-userflow.png" loading="lazy" />
+        <p>
+          L’utilisateur organise les rendez-vous médicaux, envoie des messages aux professionnels. Toutes les informations
+          sont partagées avec l'équipe soignante.
+        </p>
+      </div>
     </section>
 
-    <section id="services" class="backgroundViolet">
-      <div class="sectionFlex">
+    <!-- section services -->
+    <section id="services" class="sectionPadding backgroundViolet">
+      <div class="divWidth column">
         <h2>Nos services</h2>
 
-        <div class="cardFlow">
+        <div class="">
           <h3>Messagerie instantanée</h3>
           <p>Pour échanger facilement avec l'équipe soignante</p>
 
@@ -161,14 +176,14 @@
             alt="visualisation du flow concernant la fonctionnalité : messagerie">
         </div>
 
-        <div class="cardFlow">
+        <div class="">
           <h3>Préparation de la visite</h3>
           <p>Ne plus rien oublier avant un rendez vous médical</p>
           <img id="imgFlowVisit" src="assets/assetsProjetAidant/flowVisit.png"
             alt="visualisation du flow concernant la fonctionnalité : visite">
         </div>
 
-        <div class="cardFlow">
+        <div class="">
           <h3>Espace partagé de coordination</h3>
           <p>Suivi des rendez-vous, avec un planning synchronisé</p>
           <img id="imgFlowPlanning" src="assets/assetsProjetAidant/flowPlanning.png"
@@ -177,8 +192,10 @@
 
       </div>
     </section>
-    <section>
-      <div class="sectionFlex">
+
+    <!-- section prototype -->
+    <section class="sectionPadding">
+      <div class="divWidth column">
         <h2>Notre Prototype Haute fidélité</h2>
         <p>
           Nous avons réalisé un prototype fonctionnel en haute fidélité sur
@@ -189,55 +206,66 @@
         </p>
 
       </div>
-      <iframe id="frame" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-        src="https://embed.figma.com/proto/320cux4rP77rgpUI5gm65H/Sant%C3%A9Files?node-id=157-1105&scaling=scale-down&content-scaling=fixed&page-id=92%3A479&starting-point-node-id=157%3A1105&show-proto-sidebar=1&embed-host=share"
-        allowfullscreen></iframe>
+
+      <iframe
+        style="border: none;"
+        width="390"
+        height="844"
+        src="https://embed.figma.com/proto/320cux4rP77rgpUI5gm65H/Sant%C3%A9Files?node-id=901-1269&scaling=contain&content-scaling=fixed&page-id=92%3A479&starting-point-node-id=901%3A1269&embed-host=share&viewport=0%2C0%2C1&hide-ui=1"
+        allowfullscreen>
+      </iframe>
       <a class="button"
         href="https://www.figma.com/proto/320cux4rP77rgpUI5gm65H/Sant%C3%A9Files?page-id=92%3A479&node-id=901-1269&viewport=838%2C-851%2C0.27&t=6wiw72oD3KZlzjt7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=901%3A1269">Notre
         l'Application</a>
 
-      <div>
-        <img src="" loading="lazy" />
-      </div>
     </section>
 
-    <section class="sectionFlex">
-      <h2>Et ensuite ?</h2>
-      <div class="bilflex">
+    <!-- section suite -->
+    <section class="sectionPadding">
+      <div class="divWidth column">
+        <h2>Et ensuite ?</h2>
         <p>
           Notre application est pensée comme une base solide, mais elle ne
           s’arrête pas là. Voici ce que nous envisageons pour la suite
         </p>
-    </section>
-    <section id="sectionAvenir" class="sectionFlex">
-      <h2>Fonctionnalités à venir</h2>
-      <p> Decouvrez nos futurs Fonctionnalités</p>
-      <div>
-        <h3>Cahier de liaison</h3>
-        <p>Suivi structuré pour tous les intervenants</p>
-      </div>
-      <div>
-        <h3>Fiche de contact de santé</h3>
-        <p>Infos clés sur les pro de la santé(RPPS ,horaires,)</p>
       </div>
     </section>
 
-    <section class="sectionFlex">
-      <h2>Conclusion</h2>
+    <!-- section a venir -->
+    <section id="sectionAvenir" class="sectionPadding">
+      <div class="divWidth column">
+        <h2>Fonctionnalités à venir</h2>
+        <p> Decouvrez nos futurs Fonctionnalités</p>
+        <div>
+          <h3>Cahier de liaison</h3>
+          <p>Suivi structuré pour tous les intervenants</p>
+        </div>
+        <div>
+          <h3>Fiche de contact de santé</h3>
+          <p>Infos clés sur les pro de la santé(RPPS ,horaires,)</p>
+        </div>
+      </div>
+    </section>
 
-      <p>
-        Notre projet est une réponse concrète et accessible à une
-        problématique réelle et urgente. Il donne aux aidants les moyens de se
-        recentrer sur l’essentiel : le lien humain, le soin, et l’équilibre
-        personnel. L’objectif est simple : soulager une partie du quotidien des aidants familiaux.
-      </p>
+    <!-- section conclusion -->
+    <section class="sectionPadding">
+      <div class="divWidth column">
+        <h2>Conclusion</h2>
+
+        <p>
+          Notre projet est une réponse concrète et accessible à une
+          problématique réelle et urgente. Il donne aux aidants les moyens de se
+          recentrer sur l’essentiel : le lien humain, le soin, et l’équilibre
+          personnel. L’objectif est simple : soulager une partie du quotidien des aidants familiaux.
+        </p>
+      </div>
     </section>
   </main>
 </body>
 
 <footer>
   <div id="divF1">
-    <img src="assets/assetsProjetAidant/logoAidant3.png" alt="" />
+    <img src="assets/assetsProjetAidant/logoEntraide.png" alt="" />
   </div>
   <div id="divF2">
     <ul>
@@ -250,6 +278,7 @@
   <div id="divF3">
     <a href="" class="buttonNavBar">Nous contacter</a>
     <p>entraide@contact.fr</p>
+    <a href="https://www.canva.com/design/DAGrXtHY6Ps/V2VMC1yB4Z-_C5GS_OeMBw/watch">Vidéo</a>
     <p>04 78 70 24 34</p>
   </div>
 </footer>
